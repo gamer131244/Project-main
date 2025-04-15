@@ -131,9 +131,15 @@ input {
   height: 2.2vw;
   position: relative;
   font-size: 2vw;
-  outline: 0.3vw solid royalblue;
+  outline: 0.3vw solid lightgray;
   border: none;
+  transition: all 0.3s;
 }
+
+#password-panel {
+  outline-color: royalblue;
+}
+
 
 
 .login-input-wrapper {
