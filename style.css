@@ -1,0 +1,153 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins" !important;
+}
+
+input {
+  font-family: "Poppins" !important;
+}
+
+.login-content-wrapper {
+  
+}
+
+
+.login-content-class {
+  background: transparent;
+  height: 50vw;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-logo-class {
+  position: absolute;
+  background: transparent;
+  top: -10vw;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-logo span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.login-logo span img {
+  height: 40vw;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.login-title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-title-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2vw;
+  font-weight: 450;
+}
+
+
+.login-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-input {
+  position: relative;
+}
+
+.icon-wrapper {
+  background: transparent;
+  z-index: 99;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  pointer-events: none;
+}
+
+.login-input-icon {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 0.1vw;
+}
+
+.login-input-icon div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5vw;
+  pointer-events: auto;
+}
+
+.login-input-icon div img {
+  height: 1.5vw;
+  width: 1.5vw;
+}
+
+
+.login-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#password-panel {
+  outline: none;
+  width: 20vw;
+  height: 2.2vw;
+  position: relative;
+  font-size: 2vw;
+  outline: 0.3vw solid royalblue;
+  border: none;
+}
+
+
+.login-input-wrapper {
+  padding-top: 2vw;
+}
+
+.forgot-pass-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 2vw;
+}
+
+.forgot-pass {
+  font-size: 1.5vw;
+  color: royalblue;
+  text-decoration-line: underline;
+}
