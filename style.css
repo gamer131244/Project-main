@@ -136,7 +136,7 @@ input {
   transition: all 0.3s;
 }
 
-#password-panel {
+#password-panel:focus {
   outline-color: royalblue;
 }
 
